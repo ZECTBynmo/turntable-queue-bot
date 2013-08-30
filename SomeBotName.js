@@ -7,7 +7,7 @@ var maxSongs = 3;
 var userQueue = [];
 
 var Bot    = require('ttapi');
-var bot = new Bot(AUTH, USERID, ROOMID);
+var bot = new Bot("AUTH", "USERID", "ROOMID");
 
 console.log( "Created the bot" );
 
