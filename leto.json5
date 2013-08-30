@@ -1,0 +1,21 @@
+{   "image": "http://colliebuddz.com/system/images/blog/94131_turntablefmlogo.png", 
+    "name": "turntable-queue-bot",
+    "version": "0.0.1",                                                   
+    "github": {                                                           
+        "user": "ZECTBynmo",                                              
+        "repo": "turntable-queue-bot"
+    },
+
+    "procedure": [
+        {   "title": "Replace auth info",
+            "type": "replace",
+
+            "keywords": {
+                "bot-name": "SomeBotName",
+                "auth": "AUTH",
+                "user-id": "USERID",
+                "room-id": "ROOMID"
+            }
+        },
+    ]
+}
